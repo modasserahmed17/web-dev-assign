@@ -1,5 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+.a {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 #hero{
      height: 652px; 
@@ -13,7 +18,7 @@
      width: 998px;
      text-align: center;
      padding: 20px;
-     border-radius: 10px;
+     border-radius: 10px;
               
 }
 #padding{
@@ -55,4 +60,131 @@ padding: 21px 24px 21px 24px;
 
 
 margin: 24px 0px;
+}
+/* second page */
+.why-web-development {
+     text-align: center;
+     padding: 50px 20px;
+     background-color: #f9f9f9;
+}
+.why-web-development h1{
+     color: rgb(13, 19, 33);
+     font-family: Azeret Mono;
+     font-size: 32px;
+     font-weight: 800;
+     line-height: 37px;
+     letter-spacing: 0%;
+}
+.why-web-development p{
+     color: rgb(13, 19, 33);
+     font-family: Azeret Mono;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     letter-spacing: 0%;
+     margin: 0 460px 0 450px;
+}
+.wid{
+     width: 260px;
+}
+.card{
+     display: flex;
+     justify-content: space-between;
+     margin: 10px 460px 0px 450px;
+}
+.content{
+     max-width: 477px;
+     justify-content: flex-start;
+}
+.content h2{
+     color: rgba(13, 19, 33, 0.7);
+     font-family: Azeret Mono;
+     font-size: 22px;
+     font-weight: 800;
+     line-height: 22px;
+     letter-spacing: 0%;
+}
+.same{
+     color: rgb(13, 19, 33);
+     font-family: Azeret Mono;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 22px;
+     letter-spacing: 0%;
+     
+}
+.widt{
+     width: 240px;
+}
+.cart{
+     display: flex;
+     justify-content: space-between;
+     margin: 0px 460px 0px 450px;
+}
+.content2{
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+     margin: 0px 40px;
+     line-height: 50px;
+}
+.content2 h2{
+     color: rgba(13, 19, 33, 0.7);
+     font-family: Azeret Mono;
+     font-size: 22px;
+     font-weight: 800;
+     line-height: 22px;
+     letter-spacing: 0%;
+
+}
+.widtt{
+     width: 250px;
+}
+.carth{
+     display: flex;
+     justify-content: space-between;
+     margin: 0px 460px 0 450px;
+}
+/* button */
+.btn{
+     box-sizing: border-box;
+     border: 1px solid rgb(13, 19, 33);
+     opacity: 0.7;
+     padding: 12px 20px 12px 20px;
+     color: rgb(13, 19, 33);
+     font-family: Azeret Mono;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 23px;
+     letter-spacing: 0%;
+     margin: 30px 0px;
+}
+.content3 h2{
+     color: rgba(13, 19, 33, 0.7);
+     font-family: Azeret Mono;
+     font-size: 22px;
+     font-weight: 800;
+     line-height: 22spx;
+     letter-spacing: 0%;
+} 
+.my-inspi{
+     text-align: center;
+     padding: 50px 20px;
+     background-color: #f9f9f9;
+}
+.my-inspi h1{
+     color: rgb(13, 19, 33);
+     font-family: Azeret Mono;
+     font-size: 32px;
+     font-weight: 800;
+     line-height: 37px;
+     letter-spacing: 0%;
+}
+.my-inspi p{
+     color: rgb(13, 19, 33);
+     font-family: Azeret Mono;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     letter-spacing: 0%;
 }
