@@ -52,13 +52,10 @@ letter-spacing: 0%;
 text-align: center;
 border-radius: 8px;
 background: rgb(13, 19, 33);
-
 position: static;
 width: 208px;
 height: 66px;
 padding: 21px 24px 21px 24px;
-
-
 margin: 24px 0px;
 }
 /* second page */
@@ -288,4 +285,91 @@ margin: 24px 0px;
      
      color: black;
      font-weight: bold;
+ }
+ /* handshake part */
+ .back{
+      
+     background-image: url("../assets/handshake.jpg"); 
+     background-size: cover; 
+     display: flex;
+     justify-content: center;
+     align-items: center;     
+     width: 1210px;
+     height: 300px;  
+     margin: 0px 330px 40px 280px; 
+     border-radius: 16px;  
+     padding: 44px 28px 44px 28px;  
+}
+.back-font h2{
+     color: rgb(255, 255, 255);
+     font-family: Azeret Mono;
+     font-size: 38px;
+     font-weight: 800;
+     line-height: 32px;
+     letter-spacing: 0%;
+     text-align: center;
+}
+.back-font p{
+     color: rgb(255, 255, 255);
+     font-family: Azeret Mono;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 18px;
+     letter-spacing: 0%;
+     text-align: center;
+}
+/* .both{ */
+     display: flex;
+     justify-content: center;
+     border-radius: 10px;
+     padding: 20px 25px;
+     margin: 0 30px
+}
+/* .email{ */
+    
+     border: 1px solid white;
+     padding: 15px 30px;
+}
+
+.comment-form-inline {
+     white-space: nowrap;
+     display: flex;
+ }
+ 
+ .comment-box-inline, .sub-btn-inln {
+     /* display: inline-block;
+     vertical-align: middle; */
+     display: flex;
+ }
+ 
+ .comment-box-inline {
+     width: 550px; /* Adjust width according to button size */
+     height: 40px;
+     padding: 5px;
+     font-size: 16px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     color: black;
+     resize: vertical; /* Allow vertical resizing */
+ }
+ 
+ .sub-btn-inln {
+     padding: 10px 20px;
+     font-size: 16px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     background-color: #ffffff;
+     color: black;
+     cursor: pointer;
+     margin-left: 10px;
+ }
+ 
+ .sub-btn-inln:hover {
+     background-color: #f4f5f4;
+ }
+
+ .footer{
+     display: flex;
+     justify-content: space-between;
+     margin: 20px 350px 20px 300px;
  }
